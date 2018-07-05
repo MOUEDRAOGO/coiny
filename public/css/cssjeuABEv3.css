@@ -18,14 +18,14 @@ body {
 
 /* ******ANIMATION BACKGROUND */
 
-@-webkit-keyframes scrollHorizontalBG {
+/* @-webkit-keyframes scrollHorizontalBG {
     from {
         background-position: left top;
     }
     to {
         background-position: -5804px top; /* largeur de mon imagebackground*/
     }
-}
+} */
 
 #background {
     display: block;
@@ -111,6 +111,23 @@ body {
     background-repeat: no-repeat;
 }
 
+#scoreCoiny2 {
+    text-align: center;
+    font-size: 2em;
+    display: inline-block;
+    position: absolute;
+    line-height:92px;
+    margin: auto;
+    top: 50px;
+    left: 900px;
+    height: 100px;
+    width: 85px;
+    /* background-color: red; */
+    border-radius: 7px;
+    background-image: url('../Assets/UI/StarfishYellow.png');
+    background-repeat: no-repeat;
+}
+
 #menuHighScores {
     display: inline-block;
     position: absolute;
@@ -154,7 +171,7 @@ body {
 
 }
 
-#choisirRequin {
+#choisirCoiny {
     display: none;
     background: orangered; 
     width: 600;
@@ -167,7 +184,7 @@ body {
     border-radius: 10px;
 }
 
-#choixRequin1 {
+#choixCoiny1 {
     display: none;
     background: rgb(187, 22, 132); 
     width: 250;
@@ -180,7 +197,7 @@ body {
     border-radius: 10px;
 }
 
-#choixRequin2 {
+#choixCoiny2 {
     display: none;
     background: rgb(181, 224, 230);
     width: 250;
@@ -193,7 +210,7 @@ body {
     border-radius: 10px;
 }
 
-#divPseudoRequin1 {
+#divPseudoCoin1 {
     display: none;
     background: rgb(214, 18, 18); 
     width: 600;
@@ -206,7 +223,7 @@ body {
     border-radius: 10px;
 }
 
-#divPseudoRequin2 {
+#divPseudoCoin2 {
     display: none;
     background: rgb(224, 240, 6);
     width: 600;
@@ -251,7 +268,7 @@ body {
 
 /***SHARK***/
 
-#sharkContainer {
+#coiny1Container {
     /* masque */
     width: 337px;
     /* largeur d image la plus gde de toutes mes sprites */
@@ -265,7 +282,7 @@ body {
     /* border: 1px solid black; */
 }
 
-#sharkContenu {
+#coiny1Contenu {
     /*sprite ou image */
     position: absolute;
     display: block;
@@ -274,7 +291,7 @@ body {
 
 /***SHARK REQUIN2***/
 
-#sharkContainerRequin2 {
+#coiny2Container {
     display: none;
     /* masque */
     width: 337px;
@@ -289,7 +306,7 @@ body {
     /* border: 1px solid black; */
 }
 
-#sharkContenuRequin2 {
+#coiny2Contenu {
     display: none;
     /*sprite ou image */
     position: absolute;
