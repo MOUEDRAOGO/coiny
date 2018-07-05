@@ -1,0 +1,89 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-run_000 {
+    width: 334px;
+    height: 225px;
+    background-position: -5px -5px;
+}
+
+.sprite-run_001 {
+    width: 334px;
+    height: 225px;
+    background-position: -349px -5px;
+}
+
+.sprite-run_002 {
+    width: 334px;
+    height: 225px;
+    background-position: -693px -5px;
+}
+
+.sprite-run_003 {
+    width: 334px;
+    height: 225px;
+    background-position: -1037px -5px;
+}
+
+.sprite-run_004 {
+    width: 334px;
+    height: 225px;
+    background-position: -1381px -5px;
+}
+
+.sprite-run_005 {
+    width: 334px;
+    height: 225px;
+    background-position: -1725px -5px;
+}
+
+.sprite-run_006 {
+    width: 334px;
+    height: 225px;
+    background-position: -2069px -5px;
+}
+
+.sprite-run_007 {
+    width: 334px;
+    height: 225px;
+    background-position: -2413px -5px;
+}
+
+.sprite-run_008 {
+    width: 334px;
+    height: 225px;
+    background-position: -2757px -5px;
+}
+
+.sprite-run_009 {
+    width: 334px;
+    height: 225px;
+    background-position: -3101px -5px;
+}
+
+.sprite-run_010 {
+    width: 334px;
+    height: 225px;
+    background-position: -3445px -5px;
+}
+
+.sprite-run_011 {
+    width: 334px;
+    height: 225px;
+    background-position: -3789px -5px;
+}
+
+.sprite-run_012 {
+    width: 334px;
+    height: 225px;
+    background-position: -4133px -5px;
+}
+
+.sprite-run_013 {
+    width: 334px;
+    height: 225px;
+    background-position: -4477px -5px;
+}

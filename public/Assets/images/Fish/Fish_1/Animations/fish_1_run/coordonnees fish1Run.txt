@@ -1,0 +1,157 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+
+
+.sprite-fish_1_run_000 {
+    width: 89px;
+    height: 41px;
+    background-position: -5px -5px;
+}
+
+
+
+.sprite-fish_1_run_001 {
+    width: 89px;
+    height: 41px;
+    background-position: -104px -5px;
+}
+
+
+
+.sprite-fish_1_run_002 {
+    width: 89px;
+    height: 41px;
+    background-position: -203px -5px;
+}
+
+
+
+.sprite-fish_1_run_003 {
+    width: 89px;
+    height: 41px;
+    background-position: -302px -5px;
+}
+
+
+
+.sprite-fish_1_run_004 {
+    width: 89px;
+    height: 41px;
+    background-position: -401px -5px;
+}
+
+
+
+.sprite-fish_1_run_005 {
+    width: 89px;
+    height: 41px;
+    background-position: -500px -5px;
+}
+
+
+
+.sprite-fish_1_run_006 {
+    width: 89px;
+    height: 41px;
+    background-position: -599px -5px;
+}
+
+
+
+.sprite-fish_1_run_007 {
+    width: 89px;
+    height: 41px;
+    background-position: -698px -5px;
+}
+
+
+
+.sprite-fish_1_run_008 {
+    width: 89px;
+    height: 41px;
+    background-position: -797px -5px;
+}
+
+
+
+.sprite-fish_1_run_009 {
+    width: 89px;
+    height: 41px;
+    background-position: -896px -5px;
+}
+
+
+
+.sprite-fish_1_run_010 {
+    width: 89px;
+    height: 41px;
+    background-position: -995px -5px;
+}
+
+
+
+.sprite-fish_1_run_011 {
+    width: 89px;
+    height: 41px;
+    background-position: -1094px -5px;
+}
+
+
+
+.sprite-fish_1_run_012 {
+    width: 89px;
+    height: 41px;
+    background-position: -1193px -5px;
+}
+
+
+
+.sprite-fish_1_run_013 {
+    width: 89px;
+    height: 41px;
+    background-position: -1292px -5px;
+}
+
+
+
+.sprite-fish_1_run_014 {
+    width: 89px;
+    height: 41px;
+    background-position: -1391px -5px;
+}
+
+
+
+.sprite-fish_1_run_015 {
+    width: 89px;
+    height: 41px;
+    background-position: -1490px -5px;
+}
+
+
+
+.sprite-fish_1_run_016 {
+    width: 89px;
+    height: 41px;
+    background-position: -1589px -5px;
+}
+
+
+
+.sprite-fish_1_run_017 {
+    width: 89px;
+    height: 41px;
+    background-position: -1688px -5px;
+}
+
+
+
+.sprite-fish_1_run_018 {
+    width: 89px;
+    height: 41px;
+    background-position: -1787px -5px;
+}

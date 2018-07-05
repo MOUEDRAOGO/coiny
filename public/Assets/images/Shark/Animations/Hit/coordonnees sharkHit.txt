@@ -1,0 +1,17 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-hit_1 {
+    width: 327px;
+    height: 216px;
+    background-position: -5px -5px;
+}
+
+.sprite-hit_2 {
+    width: 327px;
+    height: 216px;
+    background-position: -342px -5px;
+}

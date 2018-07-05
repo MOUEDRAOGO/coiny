@@ -1,0 +1,41 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-star_1 {
+    width: 90px;
+    height: 86px;
+    background-position: -5px -5px;
+}
+
+.sprite-star_2 {
+    width: 90px;
+    height: 86px;
+    background-position: -105px -5px;
+}
+
+.sprite-star_3 {
+    width: 90px;
+    height: 86px;
+    background-position: -205px -5px;
+}
+
+.sprite-star_4 {
+    width: 90px;
+    height: 86px;
+    background-position: -305px -5px;
+}
+
+.sprite-star_5 {
+    width: 90px;
+    height: 86px;
+    background-position: -405px -5px;
+}
+
+.sprite-star_6 {
+    width: 90px;
+    height: 86px;
+    background-position: -505px -5px;
+}

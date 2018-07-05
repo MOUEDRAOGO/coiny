@@ -1,0 +1,77 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-die_000 {
+    width: 339px;
+    height: 253px;
+    background-position: -5px -5px;
+}
+
+.sprite-die_001 {
+    width: 339px;
+    height: 253px;
+    background-position: -5px -268px;
+}
+
+.sprite-die_002 {
+    width: 339px;
+    height: 253px;
+    background-position: -5px -531px;
+}
+
+.sprite-die_003 {
+    width: 339px;
+    height: 253px;
+    background-position: -5px -794px;
+}
+
+.sprite-die_004 {
+    width: 339px;
+    height: 253px;
+    background-position: -5px -1057px;
+}
+
+.sprite-die_005 {
+    width: 339px;
+    height: 253px;
+    background-position: -5px -1320px;
+}
+
+.sprite-die_006 {
+    width: 339px;
+    height: 253px;
+    background-position: -5px -1583px;
+}
+
+.sprite-die_007 {
+    width: 339px;
+    height: 253px;
+    background-position: -5px -1846px;
+}
+
+.sprite-die_008 {
+    width: 339px;
+    height: 253px;
+    background-position: -5px -2109px;
+}
+
+.sprite-die_009 {
+    width: 339px;
+    height: 253px;
+    background-position: -5px -2372px;
+}
+
+.sprite-die_010 {
+    width: 339px;
+    height: 253px;
+    background-position: -5px -2635px;
+}
+
+.sprite-die_011 {
+    width: 339px;
+    height: 253px;
+    background-position: -5px -2898px;
+}

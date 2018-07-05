@@ -1,0 +1,149 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-fish_2_run_000 {
+    width: 104px;
+    height: 66px;
+    background-position: -5px -5px;
+}
+
+.sprite-fish_2_run_001 {
+    width: 104px;
+    height: 66px;
+    background-position: -119px -5px;
+}
+
+.sprite-fish_2_run_002 {
+    width: 104px;
+    height: 66px;
+    background-position: -233px -5px;
+}
+
+.sprite-fish_2_run_003 {
+    width: 104px;
+    height: 66px;
+    background-position: -347px -5px;
+}
+
+.sprite-fish_2_run_004 {
+    width: 104px;
+    height: 66px;
+    background-position: -461px -5px;
+}
+
+.sprite-fish_2_run_005 {
+    width: 104px;
+    height: 66px;
+    background-position: -575px -5px;
+}
+
+.sprite-fish_2_run_006 {
+    width: 104px;
+    height: 66px;
+    background-position: -689px -5px;
+}
+
+.sprite-fish_2_run_007 {
+    width: 104px;
+    height: 66px;
+    background-position: -803px -5px;
+}
+
+.sprite-fish_2_run_008 {
+    width: 104px;
+    height: 66px;
+    background-position: -917px -5px;
+}
+
+.sprite-fish_2_run_009 {
+    width: 104px;
+    height: 66px;
+    background-position: -1031px -5px;
+}
+
+.sprite-fish_2_run_010 {
+    width: 104px;
+    height: 66px;
+    background-position: -1145px -5px;
+}
+
+.sprite-fish_2_run_011 {
+    width: 104px;
+    height: 66px;
+    background-position: -1259px -5px;
+}
+
+.sprite-fish_2_run_012 {
+    width: 104px;
+    height: 66px;
+    background-position: -1373px -5px;
+}
+
+.sprite-fish_2_run_013 {
+    width: 104px;
+    height: 66px;
+    background-position: -1487px -5px;
+}
+
+.sprite-fish_2_run_014 {
+    width: 104px;
+    height: 66px;
+    background-position: -1601px -5px;
+}
+
+.sprite-fish_2_run_015 {
+    width: 104px;
+    height: 66px;
+    background-position: -1715px -5px;
+}
+
+.sprite-fish_2_run_016 {
+    width: 104px;
+    height: 66px;
+    background-position: -1829px -5px;
+}
+
+.sprite-fish_2_run_017 {
+    width: 104px;
+    height: 66px;
+    background-position: -1943px -5px;
+}
+
+.sprite-fish_2_run_018 {
+    width: 104px;
+    height: 66px;
+    background-position: -2057px -5px;
+}
+
+.sprite-fish_2_run_019 {
+    width: 104px;
+    height: 66px;
+    background-position: -2171px -5px;
+}
+
+.sprite-fish_2_run_020 {
+    width: 104px;
+    height: 66px;
+    background-position: -2285px -5px;
+}
+
+.sprite-fish_2_run_021 {
+    width: 104px;
+    height: 66px;
+    background-position: -2399px -5px;
+}
+
+.sprite-fish_2_run_022 {
+    width: 104px;
+    height: 66px;
+    background-position: -2513px -5px;
+}
+
+.sprite-fish_2_run_023 {
+    width: 104px;
+    height: 66px;
+    background-position: -2627px -5px;
+}

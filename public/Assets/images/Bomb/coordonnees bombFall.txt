@@ -1,0 +1,23 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-bomb_1 {
+    width: 140px;
+    height: 143px;
+    background-position: -5px -5px;
+}
+
+.sprite-bomb_2 {
+    width: 132px;
+    height: 146px;
+    background-position: -5px -158px;
+}
+
+.sprite-bomb_3 {
+    width: 132px;
+    height: 146px;
+    background-position: -5px -314px;
+}

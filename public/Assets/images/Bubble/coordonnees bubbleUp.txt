@@ -1,0 +1,35 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-bubble1 {
+    width: 64px;
+    height: 64px;
+    background-position: -5px -5px;
+}
+
+.sprite-bubble2 {
+    width: 51px;
+    height: 51px;
+    background-position: -5px -79px;
+}
+
+.sprite-bubble3 {
+    width: 41px;
+    height: 41px;
+    background-position: -5px -140px;
+}
+
+.sprite-bubble4 {
+    width: 29px;
+    height: 29px;
+    background-position: -5px -191px;
+}
+
+.sprite-bubble5 {
+    width: 21px;
+    height: 21px;
+    background-position: -5px -230px;
+}

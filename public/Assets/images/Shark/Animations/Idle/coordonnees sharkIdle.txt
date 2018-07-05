@@ -1,0 +1,149 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Idle_000 {
+    width: 337px;
+    height: 223px;
+    background-position: -5px -5px;
+}
+
+.sprite-Idle_001 {
+    width: 337px;
+    height: 223px;
+    background-position: -352px -5px;
+}
+
+.sprite-Idle_002 {
+    width: 337px;
+    height: 223px;
+    background-position: -699px -5px;
+}
+
+.sprite-Idle_003 {
+    width: 337px;
+    height: 223px;
+    background-position: -1046px -5px;
+}
+
+.sprite-Idle_004 {
+    width: 337px;
+    height: 223px;
+    background-position: -1393px -5px;
+}
+
+.sprite-Idle_005 {
+    width: 337px;
+    height: 223px;
+    background-position: -1740px -5px;
+}
+
+.sprite-Idle_006 {
+    width: 337px;
+    height: 223px;
+    background-position: -2087px -5px;
+}
+
+.sprite-Idle_007 {
+    width: 337px;
+    height: 223px;
+    background-position: -2434px -5px;
+}
+
+.sprite-Idle_008 {
+    width: 337px;
+    height: 223px;
+    background-position: -2781px -5px;
+}
+
+.sprite-Idle_009 {
+    width: 337px;
+    height: 223px;
+    background-position: -3128px -5px;
+}
+
+.sprite-Idle_010 {
+    width: 337px;
+    height: 223px;
+    background-position: -3475px -5px;
+}
+
+.sprite-Idle_011 {
+    width: 337px;
+    height: 223px;
+    background-position: -3822px -5px;
+}
+
+.sprite-Idle_012 {
+    width: 337px;
+    height: 223px;
+    background-position: -4169px -5px;
+}
+
+.sprite-Idle_013 {
+    width: 337px;
+    height: 223px;
+    background-position: -4516px -5px;
+}
+
+.sprite-Idle_014 {
+    width: 337px;
+    height: 223px;
+    background-position: -4863px -5px;
+}
+
+.sprite-Idle_015 {
+    width: 337px;
+    height: 223px;
+    background-position: -5210px -5px;
+}
+
+.sprite-Idle_016 {
+    width: 337px;
+    height: 223px;
+    background-position: -5557px -5px;
+}
+
+.sprite-Idle_017 {
+    width: 337px;
+    height: 223px;
+    background-position: -5904px -5px;
+}
+
+.sprite-Idle_018 {
+    width: 337px;
+    height: 223px;
+    background-position: -6251px -5px;
+}
+
+.sprite-Idle_019 {
+    width: 337px;
+    height: 223px;
+    background-position: -6598px -5px;
+}
+
+.sprite-Idle_020 {
+    width: 337px;
+    height: 223px;
+    background-position: -6945px -5px;
+}
+
+.sprite-Idle_021 {
+    width: 337px;
+    height: 223px;
+    background-position: -7292px -5px;
+}
+
+.sprite-Idle_022 {
+    width: 337px;
+    height: 223px;
+    background-position: -7639px -5px;
+}
+
+.sprite-Idle_023 {
+    width: 337px;
+    height: 223px;
+    background-position: -7986px -5px;
+}

@@ -1,0 +1,31 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.
+
+sprite-attack_000 {
+    width: 340px;
+    height: 259px;
+    background-position: -5px -5px;
+}
+
+.sprite-attack_001 {
+    width: 340px;
+    height: 259px;
+    background-position: -355px -5px;
+}
+
+.sprite-attack_002 {
+    width: 340px;
+    height: 259px;
+    background-position: -705px -5px;
+}
+
+.sprite-attack_003 {
+    width: 340px;
+    height: 259px;
+    background-position: -1055px -5px;
+}

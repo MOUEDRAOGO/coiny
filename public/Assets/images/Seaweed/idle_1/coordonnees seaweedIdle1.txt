@@ -1,0 +1,149 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-idle_1_000 {
+    width: 219px;
+    height: 209px;
+    background-position: -5px -5px;
+}
+
+.sprite-idle_1_001 {
+    width: 219px;
+    height: 209px;
+    background-position: -234px -5px;
+}
+
+.sprite-idle_1_002 {
+    width: 219px;
+    height: 209px;
+    background-position: -463px -5px;
+}
+
+.sprite-idle_1_003 {
+    width: 219px;
+    height: 209px;
+    background-position: -692px -5px;
+}
+
+.sprite-idle_1_004 {
+    width: 219px;
+    height: 209px;
+    background-position: -921px -5px;
+}
+
+.sprite-idle_1_005 {
+    width: 219px;
+    height: 209px;
+    background-position: -1150px -5px;
+}
+
+.sprite-idle_1_006 {
+    width: 219px;
+    height: 209px;
+    background-position: -1379px -5px;
+}
+
+.sprite-idle_1_007 {
+    width: 219px;
+    height: 209px;
+    background-position: -1608px -5px;
+}
+
+.sprite-idle_1_008 {
+    width: 219px;
+    height: 209px;
+    background-position: -1837px -5px;
+}
+
+.sprite-idle_1_009 {
+    width: 219px;
+    height: 209px;
+    background-position: -2066px -5px;
+}
+
+.sprite-idle_1_010 {
+    width: 219px;
+    height: 209px;
+    background-position: -2295px -5px;
+}
+
+.sprite-idle_1_011 {
+    width: 219px;
+    height: 209px;
+    background-position: -2524px -5px;
+}
+
+.sprite-idle_1_012 {
+    width: 219px;
+    height: 209px;
+    background-position: -2753px -5px;
+}
+
+.sprite-idle_1_013 {
+    width: 219px;
+    height: 209px;
+    background-position: -2982px -5px;
+}
+
+.sprite-idle_1_014 {
+    width: 219px;
+    height: 209px;
+    background-position: -3211px -5px;
+}
+
+.sprite-idle_1_015 {
+    width: 219px;
+    height: 209px;
+    background-position: -3440px -5px;
+}
+
+.sprite-idle_1_016 {
+    width: 219px;
+    height: 209px;
+    background-position: -3669px -5px;
+}
+
+.sprite-idle_1_017 {
+    width: 219px;
+    height: 209px;
+    background-position: -3898px -5px;
+}
+
+.sprite-idle_1_018 {
+    width: 219px;
+    height: 209px;
+    background-position: -4127px -5px;
+}
+
+.sprite-idle_1_019 {
+    width: 219px;
+    height: 209px;
+    background-position: -4356px -5px;
+}
+
+.sprite-idle_1_020 {
+    width: 219px;
+    height: 209px;
+    background-position: -4585px -5px;
+}
+
+.sprite-idle_1_021 {
+    width: 219px;
+    height: 209px;
+    background-position: -4814px -5px;
+}
+
+.sprite-idle_1_022 {
+    width: 219px;
+    height: 209px;
+    background-position: -5043px -5px;
+}
+
+.sprite-idle_1_023 {
+    width: 219px;
+    height: 209px;
+    background-position: -5272px -5px;
+}
