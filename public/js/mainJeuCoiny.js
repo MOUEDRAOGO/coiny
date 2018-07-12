@@ -6,16 +6,7 @@ if (!window.document.getElementsByClassName) {
     }
 }
 
-window.requestAnimationFrame =
-    window.requestAnimationFrame ||
-    window.mozRequestAnimationFrame ||
-    window.webkitRequestAnimationFrame ||
-    function (aExecuter) {
-        window.setTimeout(function () {
-            aExecuter(new Date().getTime());
-        }, 1)
-    };
-
+ 
 /****  fin Gestion de la compatibilité */
 
 window.addEventListener('DOMContentLoaded', function () {
@@ -83,66 +74,67 @@ window.addEventListener('DOMContentLoaded', function () {
 
         /**** GESTION DU LOGIN */
 
-        var formulaireRequin1 = window.document.getElementById('formPseudoRequin1');
-        var formulaireRequin2 = window.document.getElementById('formPseudoRequin2');
+        var formulaireCoiny1 = window.document.getElementById('formPseudoCoiny1');
+        var formulaireCoiny2 = window.document.getElementById('formPseudoCoiny2');
 
         // A l'établissement de la connexion
         websocketConnexion.addEventListener('open', function (event) {
 
-            // A la soumission du formulaireRequin1
-            formulaireRequin1.addEventListener('submit', function (event) {
-                // On annule le comportement par défaut du formulaireRequin1
+            // A la soumission du formulaireCoiny1
+            formulaireCoiny1.addEventListener('submit', function (event) {
+                // On annule le comportement par défaut du formulaireCoiny1
                 event.preventDefault();
-                // On récupére les valeur des champs du formulaireRequin1
-                var elementPseudoRequin1 = window.document.getElementById('pseudoRequin1');
-                var elementMotDePasseRequin1 = window.document.getElementById('motDePasseRequin1');
+                // On récupére les valeur des champs du formulaireCoiny1
+                var elementPseudoCoiny1 = window.document.getElementById('pseudoCoiny1');
+                var elementMotDePasseCoiny1 = window.document.getElementById('motDePasseCoiny1');
 
                 // ... qu'on place dans un objet
 
-                dataIdentifiantRequin1 = {
-                    propElementPseudoRequin1: elementPseudoRequin1,
-                    propElementMotDePasseRequin1: elementMotDePasseRequin1,
+                dataIdentifiantCoiny1 = {
+                    propElementPseudoCoiny1: elementPseudoCoiny1,
+                    propElementMotDePasseCoiny1: elementMotDePasseCoiny1,
 
                 };
 
                 // On envoie cette chaine de caractère au serveur.
-                websocketConnexion.emit('IdentifiantRequin1', dataIdentifiantRequin1);
+                websocketConnexion.emit('identifiantCoiny1', dataIdentifiantCoiny1);
             });
 
-            // A la soumission du formulaireRequin2
-            formulaireRequin2.addEventListener('submit', function (event) {
-                // On annule le comportement par défaut du formulaireRequin2
+    
+            // A la soumission du formulaireCoiny2
+            formulaireCoiny2.addEventListener('submit', function (event) {
+                // On annule le comportement par défaut du formulaireCoiny1
                 event.preventDefault();
-                // On récupére les valeur des champs du formulaireRequin2
-                var elementPseudoRequin2 = window.document.getElementById('pseudoRequin2');
-                var elementMotDePasseRequin2 = window.document.getElementById('motDePasseRequin2');
+                // On récupére les valeur des champs du formulaireCoiny1
+                var elementPseudoCoiny2 = window.document.getElementById('pseudoCoiny2');
+                var elementMotDePasseCoiny2 = window.document.getElementById('motDePasseCoiny2');
 
                 // ... qu'on place dans un objet
-                dataIdentifiantRequin2 = {
-                    propElementPseudoRequin2: elementPseudoRequin2,
-                    propElementMotDePasseRequin2: elementMotDePasseRequin2,
+
+                dataIdentifiantCoiny2 = {
+                    propElementPseudoCoiny2: elementPseudoCoiny2,
+                    propElementMotDePasseCoiny2: elementMotDePasseCoiny2,
 
                 };
 
                 // On envoie cette chaine de caractère au serveur.
-                websocketConnexion.emit('IdentifiantRequin2', dataIdentifiantRequin2);
+                websocketConnexion.emit('identifiantCoiny2', dataIdentifiantCoiny2);
             });
 
-        });
 
         /****FIN GESTION LOGIN */
 
         var divRegleJeu = document.getElementById('regleJeu');
         divRegleJeu.style.display = "none"; // fermeture du panneau regle du jeu 
 
-        var delaiCreationFish = 1000; // ttes les 1s = 1 fish
+        var delaiCreationCoiny = 500; // ttes les 0,5s = 1 piece
 
-        /////// creation de fish a la volee    /////// 
+        /////// creation de piece a la volee    /////// 
 
         var setIntervalEnemies = setInterval(function () {
             var randomHeight = Math.random() * (gameHeight * 0.9 - topBackground) + topBackground; // 0.9 pour reduire la hauteur du ramdom afin que le poisson n apparaisse pas hors du cadre du jeu
-            new Constructeurenemies(shark, randomHeight)
-        }, delaiCreationFish);
+            new ConstructeurCoiny(shark, randomHeight)
+        }, delaiCreationCoiny);
 
 
 
