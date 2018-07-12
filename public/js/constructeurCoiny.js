@@ -1,8 +1,8 @@
-var ConstructeurCoiny = function () {
+var ConstructeurCoiny = function (randomHeight) {
 
     this.imageCoiny = {
 
-        src: '../public/Assets/Images/Gold_Coin_PNG_Clipart-663.png',
+        src: '../public/Assets/images/Gold_Coin_PNG_Clipart-663.png',
         position: Math.random() * (gameHeight * 0.9 - topBackground) + topBackground,
     }; // fin du gestesDuFish1
 
@@ -11,12 +11,12 @@ var ConstructeurCoiny = function () {
     //Création du div en html
 
     this.coiny = window.document.createElement('div');
-    this.coiny.id = 'coinyContainer';
+    this.coiny.id = 'coiny1Container';
     this.coiny.style.top = offset + 'px';
 
     this.coinyContenuADeplacer = window.document.createElement('img');
     this.coinyContenuADeplacer.id = 'coinyContenu';
-    this.coinyContenuADeplacer.src = '../public/Assets/Images/Gold_Coin_PNG_Clipart-663.png';
+    this.coinyContenuADeplacer.src = '../public/Assets/images/Gold_Coin_PNG_Clipart-663.png';
 
     //console.log('var coinyContenuADeplacer ok ')
 
@@ -32,7 +32,7 @@ var ConstructeurCoiny = function () {
     // console.log('decalageLeftFish1Reverse -5 ok')
 
     // definit la vitesse de creation des pieces
-    this.vitesseCreationCoiny = 0.5;
+    // this.vitesseCreationCoiny = 0.5;
     // console.log('vitesseCreationCoiny ok')
 
     this.removeCoiny = 0;

@@ -11,55 +11,17 @@ if (!window.document.getElementsByClassName) {
 
 window.addEventListener('DOMContentLoaded', function () {
 
-    var websocketConnexion = io('http://192.168.104.99:8888');
+    var websocketConnexion = io('http://192.168.0.20:8888');
 
 
-
-    /****  recueperrer les coordonnees de shark */
-
-    //   socket.emit('luigi', { top: event.clientY, left: event.clientX, identifiant: luigi.id });
-
-    // });
-
-    //     socket.on('caractMasqueContainer', function (data) {
-    //         data.forEach(function (masqueContainer) {
-    //             var masqueContainer = document.getElementById('container');
-    //             if (!masqueContainer) {
-    //                 masqueContainer = document.getElementById('container');
-    //                 masqueContainer.position = "absolute";
-    //                 window.document.body.appendChild(masqueContainer);
-    //             }
-    //             masqueContainer.style.left = masqueX + "px"; //
-    //             masqueContainer.style.top = masqueY + "px";
-    //         })
-    //         /**
-    //           A chaque message reçu, on affiche les données
-    //           obtenues dans la console du navigateur Internet.
-    //         **/
-    //     });
-
-    //     // socket.on('caractLuigi', functwion (data) {
-    //     //   data.forEach(function (elementMario) {
-    //     //     console.log('luigi', elementMario);
-    //     //     var mario = document.getElementById(elementLuigi.identifiant);
-
-    //     //   })
-
-    //     // })
-
-    // })
-
-    /********************************************** */
-
-
-    var shark = new ConstructeurShark(); // est execute une fois que le DOM est charge
-    console.log(shark);
+    // var shark = new ConstructeurShark(); // est execute une fois que le DOM est charge
+    
     var largeurEcran = window.innerWidth; //recupere automatiquement la valeur de l'ecran du joueur
     var gameHeight = document.getElementById('background').offsetHeight; //definit la hauteur d evolution du jeu
     var topBackground = document.getElementById('background').offsetTop; // definit le top a partir duquel commence la hauteur d 'evolution du jeu
 
     dataInitJeuDom = {
-        propShark: shark,
+        
         propLargeurEcran: largeurEcran,
         propGameHeight: gameHeight,
         propTopBackground: topBackground,
@@ -70,7 +32,10 @@ window.addEventListener('DOMContentLoaded', function () {
 
 
     document.getElementById('regleJeu').addEventListener('click', function () { // fermeture du panneau regle du jeu et lancement du jeu au clic sur le panneau regle du jeu
-        var websocketConnexion = io('http://192.168.104.99:8888');
+        var websocketConnexion = io('http://192.168.0.20:8888');
+
+        var divRegleJeu = document.getElementById('regleJeu');
+        divRegleJeu.style.display = "none"; // fermeture du panneau regle du jeu 
 
         /**** GESTION DU LOGIN */
 
@@ -124,17 +89,29 @@ window.addEventListener('DOMContentLoaded', function () {
 
         /****FIN GESTION LOGIN */
 
-        var divRegleJeu = document.getElementById('regleJeu');
-        divRegleJeu.style.display = "none"; // fermeture du panneau regle du jeu 
+        
 
         var delaiCreationCoiny = 500; // ttes les 0,5s = 1 piece
 
+        var setIntervalCoiny = null;
+        var varCounter = 0;
+        console.log('varcounter ok')
+        var varName = function(){
+            debugger
+            console.log('varName')
+            if(varCounter <= 50) {
+            varCounter++;
+            var randomHeight = Math.random() * (gameHeight * 0.9 - topBackground) + topBackground; // 0.9 pour reduire la hauteur du ramdom afin que le poisson n apparaisse pas hors du cadre du jeu
+            new ConstructeurCoiny(randomHeight)
+            } else {
+                clearInterval(setIntervalCoiny);
+            }
+};
+
         /////// creation de piece a la volee    /////// 
 
-        var setIntervalEnemies = setInterval(function () {
-            var randomHeight = Math.random() * (gameHeight * 0.9 - topBackground) + topBackground; // 0.9 pour reduire la hauteur du ramdom afin que le poisson n apparaisse pas hors du cadre du jeu
-            new ConstructeurCoiny(shark, randomHeight)
-        }, delaiCreationCoiny);
+        setIntervalCoiny = setInterval(varName, delaiCreationCoiny);
+        console.log('setIntervalCoiny ok')
 
 
 
@@ -313,4 +290,6 @@ window.addEventListener('DOMContentLoaded', function () {
 
 
 
-}); // fin window.addEventListener DOMContentLoaded
+}); // fin window.addEventListener DomContentLoaded
+
+});

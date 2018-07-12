@@ -15,7 +15,7 @@ const app = express();
 const server = http.createServer(app);
 
 // const path = require('path')
-// Const SocketIO = require('socket.io')
+Const SocketIO = require('socket.io')
 
 app.use("/musique", express.static(__dirname + '../public/Assets/musique'));
 app.use("/cv", express.static(__dirname + '../public/Assets/CV'));
@@ -198,5 +198,5 @@ socketIo.on('connection', function (websocketConnection) { // reponse et validat
 /********************************************/
 
 server.listen(8888, function () {
-    console.log('CONNECTED TO serverSocketIoV3.js !');
+    console.log('CONNECTED TO serverCoiny.js !');
 });
